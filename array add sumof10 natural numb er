@@ -12,7 +12,7 @@
     // cout<<number<<endl;
 
     
-//find sum of 10 natural nu ber i array.
+//find sum of 10 natural number i array. in function
 
 
 #include <iostream>
