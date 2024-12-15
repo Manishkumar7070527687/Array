@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+int main()
+{
+    int arr[] = {3, 1, 2, 4, 0, 6};
+    int target = 5;
+    int pairs = 0;
+    for (int i = 0; i < 6; i++)
+    {                                            // 3 triplet pairs find kr rhe h sum =8
+        for (int j = i + 1; j < 6; j++)
+        {
+            for (int k = j + 1; k < 5; k++)
+            {
+                if (arr[i] + arr[j] + arr[k] == target)
+                {
+                    pairs++;
+                }
+            }
+        }
+    }
+    cout << pairs;
+    return 0;
+}
